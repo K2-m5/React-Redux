@@ -9,9 +9,9 @@ export default class SearchPanel extends Component {
   }
 
   onChangeInput = (e) => {
-    const inputValue = e.target.value
+    const inputValue = e.target.value;
     this.setState({ inputValue });
-    this.props.onSearchChange(inputValue)
+    this.props.onSearchChange(inputValue);
   }
 
   render () {
